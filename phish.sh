@@ -347,7 +347,7 @@ printf "\n"
 			rm -rf .server/www/usernames.txt
 		fi
 		sleep 0.75
-	done
+
 }
 
 ## Start ngrok
